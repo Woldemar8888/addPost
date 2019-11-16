@@ -1,22 +1,69 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
+.appWrapper {
+    text-align: center;
+    padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+textarea {
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    padding: 8px;
+    margin-bottom: 10px;
+    
 }
 
-.App-link {
-  color: #09d3ac;
+button {
+    margin: 5px;
+    padding: 3px;
 }
+
+.post {
+    border: 2px solid green;
+    position: relative;
+    padding: 5px;
+    margin: 20px auto;
+    padding-bottom: 35px;
+}
+
+.time {
+    width: 50px;
+    height: 20px;
+    padding: 5px 20px;
+    background: yellow;
+    position: absolute;
+    box-sizing: content-box;
+    top: 0;
+    right: 0;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+}
+
+form, .editForm {
+    text-align: right;
+}
+
+input[type="submit"]{
+    padding: 3px;
+}
+
+
+
+.editForm button {
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+}
+
+
+
+
